@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!---------Header session------------>
+    <header class="header">
+        <a href="#"><img src="./images/Remove-bg.ai_1731361524149.png" alt="logo"></a>
+        <span class="font-bold text-lg"></span>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+    <!---------Sub-Header session------------>
+    <section class="sub-header" id="sub-header">
+        <h1><span>My </span>Services</h1>
+    </section>
+    
+    <!---------------Services Section------------------->
+    <section class="services" id="services">
+        <div class="text-title">
+            <h2><span>What I </span>Do? </h2>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>I bring designs to life with clean, functional code. Using HTML, CSS, and JavaScript, I create responsive and interactive websites that look great and work seamlessly.</p>
+                <a href="#" class="btn">Start Project</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-devices"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>I design clean, user-friendly interfaces focused on simplicity and functionality. My goal is to make your website or app easy to use and visually appealing.</p>
+                <a href="#" class="btn">Start Project</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-pen"></i>
+                </div>
+                <h3>Graphics Design</h3>
+                <p>I turn ideas into eye-catching designs that represent your brand. From logos to social media graphics, I create visuals that stand out and connect with your audience.</p>
+                <a href="#" class="btn">Start Project</a>
+            </div>
+        </div>
+    </section>
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Other <span>Services</span></h2>
+        </div>
+        <div class="others-imgs">
+            <img src="./images/training.jpg" alt="Web Development Training">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3><span>Web Development</span> Training</h3>
+            <p>Learn to build stunning, responsive websites from scratch. With hands-on training in HTML, CSS, JavaScript, and more, I’ll guide you step-by-step to master web development and turn your ideas into reality. This hands-on training focuses on building real-world projects, helping you understand how to structure, style, and add interactivity to web pages. By the end, you’ll have the skills to confidently develop websites and bring your ideas to life.</p>
+            <a href="#" class="btn">Enroll Now</a>
+        </div> <!-- Added missing closing </div> tag -->
+    </section>
+    <!--------------------------Footer session--------------------------->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed with <i class='bx bx-heart'></i> by Emmanuel</p>
+            <div class="move-up">
+                <a href="#services" aria-label="Back To Top"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </div>
+    </footer>
+    <!---------------JS toggle menu------------------>
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+```
+
+ 

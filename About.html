@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!---------Header session------------>
+    <header class="header">
+        <a href="#"><img src="./images/Remove-bg.ai_1731361524149.png" alt="logo"></a>
+        <span class="font-bold text-lg"><b></b></span>
+    <div class="navMenu" id="navMenu">
+    <i class='bx bx-window-close' onclick="colseMenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <i class='bx bx-menu'onclick="openMenu()"></i>
+    </header>
+    <!---------Sub-Header session------------>
+    <section class="sub-header" id="sub-header">
+       <h1>About <span>Me</span></h1>
+    </section>
+    <!-------------- About session---------------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/Emman.png">
+        </div>
+        <div class="about-text">
+            <h4><span>i'm a</span> Design Technologist</h4>
+            <p>I’m a creative and passionate front-end web developer navigating the ever-evolving tech landscape. My journey in the tech world has been one of discovery, innovation, and a relentless drive to turn ideas into reality.
+
+                With hands-on experience in HTML, CSS, and growing expertise in JavaScript, I’ve built projects that balance aesthetic appeal with seamless functionality. <br><br> From crafting responsive login forms to experimenting with 3D animations for engaging designs, I thrive on merging technology and creativity.
+                
+                As a technologist, I’m fascinated by how design shapes user experiences. I aim to create websites that are not just visually appealing but also intuitive and accessible to everyone.<br><br> My work reflects a commitment to clean coding, efficient problem-solving, and innovative design solutions.
+                
+                Beyond coding, my experience in the tech world extends to understanding how technology influences businesses and communities. Whether building a healthcare website with WordPress or moderating for platforms like RCO Finance, I’ve developed the ability to adapt, organize, and deliver value in diverse fields.<br><br>
+                
+                I bring to the table a mix of technical expertise, creative problem-solving, and a deep understanding of how design impacts people. If you’re looking for someone who can bring your vision to life with a fresh perspective, let’s connect and make something extraordinary together!</p>
+            <a href="" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>Me?</span></h2>
+        </div>
+        <div class="others-imgs">
+            <img src="./images/image-g1.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3><span>As </span>a Design Technologist & a Web Development Trainer</h3>
+            <p>
+                - I specialize in creating visually appealing, user-friendly websites that are not only functional but also resonate with your audience. My focus on clean design and responsive layouts ensures your website stands out and works seamlessly on all devices.<br><br>
+                
+                
+                - Every project I take on is approached with a unique perspective, tailoring solutions to fit your specific needs. I meticulously document and organize my work, ensuring clear communication and long-term maintainability for your website.<br><br>
+                
+                
+                - As someone actively learning and growing in the tech field, I stay up-to-date with the latest trends and tools. Whether it’s adding dynamic animations or integrating innovative features, I bring fresh ideas and a commitment to delivering high-quality results.
+            </p>
+        </div>
+        <div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+<!--------------------------Footer session--------------------------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Designed with <i class='bx bx-heart'></i> by Emmanuel</p>
+<div class="move-up">
+    <a href="#about" aria-label="Back To Top"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+    </div>
+    <!---------------JS toggle menu------------------>
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+           navMenu.style.right="0" 
+        }
+        function colseMenu() {
+           navMenu.style.right="-200px" 
+        }
+    </script>
+
+</footer>
+</body>
+</html>

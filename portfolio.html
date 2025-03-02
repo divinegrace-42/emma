@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!---------Header session------------>
+    <header class="header">
+        <a href="#"><img src="./images/Remove-bg.ai_1731361524149.png" alt="logo"></a>
+        <span class="font-bold text-lg"><b></b></span>
+    <div class="navMenu" id="navMenu">
+    <i class='bx bx-window-close' onclick="colseMenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <i class='bx bx-menu'onclick="openMenu()"></i>
+    </header>
+    <!---------Sub-Header session------------>
+    <section class="sub-header" id="sub-header">
+        <h1><span>Recent </span>projects</h1>
+    </section>
+        <!---------------------------portfolio Sesstion--------------------------------->
+<section class="portfolio" id="portfolio">
+    <div class="sub-text-title">
+        <h2><span>Frontend Development </span>Projects</h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="./images/image-g2.png">
+            <div class="cover">
+                <h5>MoonValley Project</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aperiam nesciunt officia maiores deleniti rem illum! Sit quam repudiandae tempora, blanditiis expedita unde voluptate aspernatur hic officiis quibusdam laborum consequatur.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="./images/image-g2.png">
+            <div class="cover">
+                <h5>MoonValley Project</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aperiam nesciunt officia maiores deleniti rem illum! Sit quam repudiandae tempora, blanditiis expedita unde voluptate aspernatur hic officiis quibusdam laborum consequatur.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <div class="sub-text-title">
+        <h2><span>UI/UX Design </span>Projects</h2>
+    </div>
+<div class="portfolio-content">
+    <div class="row">
+        <img src="./images/image-g2.png">
+        <div class="cover">
+            <h5>MoonValley Project</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aperiam nesciunt officia maiores deleniti rem illum! Sit quam repudiandae tempora, blanditiis expedita unde voluptate aspernatur hic officiis quibusdam laborum consequatur.</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <img src="./images/image-g2.png">
+        <div class="cover">
+            <h5>MoonValley Project</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aperiam nesciunt officia maiores deleniti rem illum! Sit quam repudiandae tempora, blanditiis expedita unde voluptate aspernatur hic officiis quibusdam laborum consequatur.</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+    </div>
+</div>
+</section>
+<section class="portfolio" id="portfolio">
+    <div class="sub-text-title">
+        <h2><span>Graphics Design </span>Projects</h2>
+    </div>
+<div class="portfolio-content">
+    <div class="row">
+        <img src="./images/image-g2.png">
+        <div class="cover">
+            <h5>MoonValley Project</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aperiam nesciunt officia maiores deleniti rem illum! Sit quam repudiandae tempora, blanditiis expedita unde voluptate aspernatur hic officiis quibusdam laborum consequatur.</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <img src="./images/image-g2.png">
+        <div class="cover">
+            <h5>MoonValley Project</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aperiam nesciunt officia maiores deleniti rem illum! Sit quam repudiandae tempora, blanditiis expedita unde voluptate aspernatur hic officiis quibusdam laborum consequatur.</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+    </div>
+</div>
+</section>
+<!--------------------------Footer session--------------------------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Designed with <i class='bx bx-heart'></i> by Emmanuel</p>
+<div class="move-up">
+    <a href="#about" aria-label="Back To Top"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+    </div>
+    <!---------------JS toggle menu------------------>
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+           navMenu.style.right="0" 
+        }
+        function colseMenu() {
+           navMenu.style.right="-200px" 
+        }
+    </script>
+
+</footer>
+</body>
+</html>
