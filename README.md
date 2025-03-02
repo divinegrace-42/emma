@@ -57,7 +57,7 @@ Setup and Usage
 
 1. Download or Clone the Repository
 
-git clone https://github.com/divinegrace/emma/edit/main/portfolio-website.git
+git clone https://github.com/divinegrace-42/portfolio-website.git
 cd portfolio-website
 
 
