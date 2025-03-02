@@ -57,7 +57,7 @@ Setup and Usage
 
 1. Download or Clone the Repository
 
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/divinegrace/emma/edit/main/portfolio-website.git
 cd portfolio-website
 
 
@@ -90,7 +90,7 @@ Common Issues & Fixes:
 
 Credits
 
-Designed and developed by [Your Name].
+Designed and developed by [Adeleke Omoniyi].
 
 License
 
